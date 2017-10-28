@@ -12,13 +12,24 @@ header {
   z-index: 5;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 98.5%;
   background-color: seashell;
   align-items: center;
 }
 
 nav {
   margin-left: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: seashell;
+  border-top: 1px solid grey;
+}
+
+header a {
+  margin-right: 5px;
 }
 
 #profile {
