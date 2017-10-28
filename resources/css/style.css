@@ -32,6 +32,10 @@ header a {
   margin-right: 5px;
 }
 
+footer div {
+  margin-left: 5px;
+}
+
 #profile {
   width: 100%;
   height auto;
