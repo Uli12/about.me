@@ -1,0 +1,15 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 50px;
+  border-bottom: 1px solid grey;
+  z-index: 5;
+}
+
+#profile {
+  width: 100%;
+  height auto;
+}
