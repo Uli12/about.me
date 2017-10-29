@@ -5,6 +5,8 @@ body {
   margin-top: 0px;
 }
 
+/*header*/
+
 header {
   position: fixed;
   top: 20px;
@@ -23,32 +25,40 @@ nav {
   justify-content: space-around;
 }
 
+header a {
+  margin-right: 5px;
+}
+
+header p {
+  font-size: 10px;
+}
+
 footer {
   background-color: seashell;
   border-top: 1px solid grey;
-}
-
-header a {
-  margin-right: 5px;
 }
 
 footer div {
   margin-left: 5px;
 }
 
-#profile {
+#page1 #profile {
   width: 100%;
   height auto;
   margin-top: 62px;
 }
 
-.main {
+#page1 .main {
   display: flex;
   flex-direction: column;
 }
 
-.links {
+#page1 section {
   display: flex;
   justify-content: space-around;
   padding: 10px;
+}
+
+#contact {
+  font-weight: bold;
 }
