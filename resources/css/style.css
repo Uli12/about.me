@@ -37,10 +37,11 @@ header a {
 
 header p {
   font-size: 15px;
+  text-align: center;
 }
 
 h1 {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 footer {
@@ -52,7 +53,7 @@ footer div {
   margin-left: 5px;
 }
 
-.main img {
+img#profile {
   margin-top: 0px;
 }
 
