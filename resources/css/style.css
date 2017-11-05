@@ -99,10 +99,9 @@ footer div {
 
 #edu,
 #hr,
-#admin,
-#factory {
-  height: 350px;
-  width: 350px;
+#admin {
+  height: 400px;
+  width: 400px;
   color: seashell;
   display: flex;
   align-items: center;
@@ -152,18 +151,13 @@ footer div {
 }
 
 #hr {
-  background-image: url("../HR2.png");
+  background-image: url("../HR3.jpg");
   padding-left: 10px;
 }
 
 #admin {
   background-image: url("../office.jpg");
   padding-left: 10px;
-}
-
-#factory {
-  background-image: url("../factory1.png");
-  padding-left: 5px;
 }
 
 #page3 section {
