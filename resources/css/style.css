@@ -59,7 +59,7 @@ footer div {
 #page1 #profile {
   width: 100%;
   height auto;
-  margin-top: 62px;
+  margin-top: 0px;
 }
 
 #page1 .main {
@@ -71,25 +71,40 @@ footer div {
   display: flex;
   justify-content: space-around;
   padding: 10px;
-}
-
-#interests
-#trajectory
-#background {
-  height: 400px;
-  width: 400px;
+  height: 420px;
 }
 
 #interests {
   background-image: url("../bowtie1.jpg");
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 23px;
+  text-decoration: none;
 }
 
 #trajectory {
   background-image: url("../map.png");
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 23px;
+  text-decoration: none;
 }
 
 #background {
   background-image: url("../work.jpg");
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 23px;
+  text-decoration: none;
 }
 
 #contact {
