@@ -186,6 +186,7 @@ section div {
 .background {
   display: flex;
   padding-top; 50px;
+  justify-content:space-around;
 }
 
 #contact {
