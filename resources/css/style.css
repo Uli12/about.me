@@ -183,7 +183,7 @@ footer div {
 }
 
 #yknot {
-  background-image: url("../yknot.pdf")
+  background-image: url("../bowtie.jpg")
 }
 
 #food {
@@ -221,7 +221,8 @@ section div {
   justify-content: center;
 }
 
-.background {
+.background,
+.interests {
   display: flex;
   padding-top: 50px;
   justify-content: space-around;
