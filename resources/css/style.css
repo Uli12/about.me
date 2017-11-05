@@ -74,8 +74,9 @@ footer div {
   height: 420px;
 }
 
-#interests {
-  background-image: url("../bowtie1.jpg");
+#interests,
+#trajectory,
+#background {
   width: 400px;
   display: flex;
   align-items: center;
@@ -83,28 +84,18 @@ footer div {
   color: white;
   font-size: 23px;
   text-decoration: none;
+}
+
+#interests {
+  background-image: url("../bowtie1.jpg");
 }
 
 #trajectory {
   background-image: url("../map.png");
-  width: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 23px;
-  text-decoration: none;
 }
 
 #background {
   background-image: url("../work.jpg");
-  width: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 23px;
-  text-decoration: none;
 }
 
 #contact {
