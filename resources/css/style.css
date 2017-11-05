@@ -84,7 +84,11 @@ footer div {
 #naha,
 #saipan,
 #honolulu,
-#slc {
+#slc,
+#edu,
+#hr,
+#admin,
+#factory {
   height: 400px;
   width: 400px;
   display: flex;
@@ -126,11 +130,27 @@ footer div {
 }
 
 #honolulu {
-  background-image: url("../honolulu1.jpg");
+  background-image: url("../honolulu2.jpg");
 }
 
 #slc {
   background-image: url("../slc1.jpg");
+}
+
+#edu {
+  background-image: url("../fashion.jpg");
+}
+
+#hr {
+  background-image: url("../HR.jpg");
+}
+
+#admin {
+  background-image: url("../office.jpg");
+}
+
+#factory {
+  background-image: url("../factory.jpg");
 }
 
 #page3 section {
