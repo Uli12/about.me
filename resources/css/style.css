@@ -85,6 +85,7 @@ footer div {
 #saipan,
 #honolulu,
 #slc {
+  height: 400px;
   width: 400px;
   display: flex;
   align-items: center;
