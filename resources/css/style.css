@@ -45,7 +45,6 @@ h1 {
 }
 
 footer {
-  background-color: seashell;
   border-top: 1px solid grey;
 }
 
@@ -53,7 +52,7 @@ footer div {
   margin-left: 5px;
 }
 
-img#profile {
+.main img {
   margin-top: 0px;
 }
 
@@ -72,6 +71,25 @@ img#profile {
   display: flex;
   justify-content: space-around;
   padding: 10px;
+}
+
+#interests
+#trajectory
+#background {
+  height: 400px;
+  width: 400px;
+}
+
+#interests {
+  background-image: url("../bowtie1.jpg");
+}
+
+#trajectory {
+  background-image: url("../map.png");
+}
+
+#background {
+  background-image: url("../work.jpg");
 }
 
 #contact {
