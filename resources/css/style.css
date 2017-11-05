@@ -84,11 +84,7 @@ footer div {
 #naha,
 #saipan,
 #honolulu,
-#slc,
-#edu,
-#hr,
-#admin,
-#factory {
+#slc, {
   height: 400px;
   width: 400px;
   display: flex;
@@ -99,6 +95,18 @@ footer div {
   text-decoration: none;
   font-weight: bold;
   background-repeat: no-repeat;
+}
+
+#edu,
+#hr,
+#admin,
+#factory {
+  height: 350px;
+  width: 350px;
+  color: seashell;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #interests {
@@ -130,7 +138,7 @@ footer div {
 }
 
 #honolulu {
-  background-image: url("../honolulu2.jpg");
+  background-image: url("../honolulu3.jpg");
 }
 
 #slc {
@@ -138,19 +146,24 @@ footer div {
 }
 
 #edu {
-  background-image: url("../fashion.jpg");
+  background-image: url("../fashion1.png");
+  padding-left: 10px;
+  padding-right: 5px;
 }
 
 #hr {
-  background-image: url("../HR.jpg");
+  background-image: url("../HR2.png");
+  padding-left: 10px;
 }
 
 #admin {
   background-image: url("../office.jpg");
+  padding-left: 10px;
 }
 
 #factory {
-  background-image: url("../factory.jpg");
+  background-image: url("../factory1.png");
+  padding-left: 5px;
 }
 
 #page3 section {
@@ -170,14 +183,15 @@ section div {
   padding-bottom: 10px;
 }
 
-.city a {
-  color: seashell;
-}
-
 .city p {
   font-weight: bold;
   display: flex;
   justify-content: center;
+}
+
+.background {
+  display: flex;
+  padding-top; 50px;
 }
 
 #contact {
