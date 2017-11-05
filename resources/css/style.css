@@ -94,6 +94,7 @@ footer div {
   font-size: 23px;
   text-decoration: none;
   font-weight: bold;
+  background-repeat: no-repeat;
 }
 
 #interests {
@@ -149,11 +150,14 @@ section div {
   padding-bottom: 10px;
 }
 
+.city a {
+  color: seashell;
+}
+
 .city p {
   font-weight: bold;
   display: flex;
   justify-content: center;
-  color: seashell;
 }
 
 #contact {
