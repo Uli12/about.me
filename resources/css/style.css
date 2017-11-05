@@ -123,6 +123,7 @@ footer div {
   font-size: 23px;
   font-weight: bold;
   background-repeat: no-repeat;
+  text-decoration: none;
 }
 
 #interests {
@@ -168,7 +169,7 @@ footer div {
 }
 
 #hr {
-  background-image: url("../payroll.jpg");
+  background-image: url("../payroll3.jpg");
   padding-left: 10px;
 }
 
