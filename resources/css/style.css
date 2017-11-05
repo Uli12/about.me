@@ -109,7 +109,7 @@ footer div {
 }
 
 #tokyo {
-  background-image: url("../tokyo.jpg");
+  background-image: url("../tokyo1.jpg");
 }
 
 #boston {
@@ -121,21 +121,21 @@ footer div {
 }
 
 #saipan {
-  background-image: url("../saipan.jpg");
+  background-image: url("../saipan1.jpg");
 }
 
 #honolulu {
-  background-image: url("../hawaii.jpg");
+  background-image: url("../honolulu1.jpg");
 }
 
 #slc {
-  background-image: url("../slc.jpg");
+  background-image: url("../slc1.jpg");
 }
 
 #page3 section {
   display: flex;
   justify-content: space-around;
-  height: 840px;
+  height: 950px;
   flex-wrap: wrap;
   align-content: center;
   padding-top: 50px;
@@ -145,7 +145,14 @@ section div {
   display: flex;
   flex-direction: column;
   align-content: center;
+  align-items: center;
   padding-bottom: 10px;
+}
+
+.city p {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 #contact {
