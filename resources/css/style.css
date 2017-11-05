@@ -97,10 +97,23 @@ footer div {
   background-repeat: no-repeat;
 }
 
+#tokyo,
+#boston,
+#naha,
+#saipan,
+#honolulu,
+#slc {
+  color: seashell;
+}
+
 #edu,
 #hr,
 #admin,
-#translate {
+#translate,
+#yknot,
+#food,
+#art,
+#sports {
   height: 290px;
   width: 290px;
   display: flex;
@@ -167,6 +180,22 @@ footer div {
 #translate {
   background-image: url("../translate.jpg");
   padding-left: 10px;
+}
+
+#yknot {
+  background-image: url("../yknot.pdf")
+}
+
+#food {
+  background-image: url("../food.jpg")
+}
+
+#art {
+  background-image: url("../art.jpg")
+}
+
+#sports {
+  background-image: url("../sports.png")
 }
 
 #page3 section {
