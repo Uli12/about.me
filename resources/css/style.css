@@ -39,7 +39,7 @@ header a {
 
 header p {
   font-size: 15px;
-  text-align: center;
+  padding-right: 270px;
 }
 
 h1 {
@@ -78,7 +78,13 @@ footer div {
 
 #interests,
 #trajectory,
-#background {
+#background,
+#tokyo,
+#boston,
+#naha,
+#saipan,
+#honolulu,
+#slc {
   width: 400px;
   display: flex;
   align-items: center;
@@ -99,6 +105,39 @@ footer div {
 
 #background {
   background-image: url("../work.jpg");
+}
+
+#tokyo {
+  background-image: url("../tokyo.jpg");
+}
+
+#boston {
+  background-image: url("../boston.jpg");
+}
+
+#naha {
+  background-image: url("../naha.jpg");
+}
+
+#saipan {
+  background-image: url("../saipan.jpg");
+}
+
+#honolulu {
+  background-image: url("../hawaii.jpg");
+}
+
+#slc {
+  background-image: url("../slc.jpg");
+}
+
+#page3 section {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  height: 420px;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 #contact {
