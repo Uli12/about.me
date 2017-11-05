@@ -102,10 +102,10 @@ footer div {
 #admin {
   height: 350px;
   width: 350px;
-  color: seashell;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: seashell;
   font-weight: bold;
   background-repeat: no-repeat;
 }
