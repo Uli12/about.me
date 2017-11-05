@@ -100,12 +100,14 @@ footer div {
 #edu,
 #hr,
 #admin {
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   color: seashell;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
+  background-repeat: no-repeat;
 }
 
 #interests {
@@ -185,8 +187,8 @@ section div {
 
 .background {
   display: flex;
-  padding-top; 50px;
-  justify-content:space-around;
+  padding-top: 50px;
+  justify-content: space-around;
 }
 
 #contact {
