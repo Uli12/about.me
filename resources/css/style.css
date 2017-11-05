@@ -99,13 +99,15 @@ footer div {
 
 #edu,
 #hr,
-#admin {
-  height: 350px;
-  width: 350px;
+#admin,
+#translate {
+  height: 290px;
+  width: 290px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: seashell;
+  font-size: 23px;
   font-weight: bold;
   background-repeat: no-repeat;
 }
@@ -153,12 +155,17 @@ footer div {
 }
 
 #hr {
-  background-image: url("../HR3.jpg");
+  background-image: url("../payroll.jpg");
   padding-left: 10px;
 }
 
 #admin {
   background-image: url("../office.jpg");
+  padding-left: 10px;
+}
+
+#translate {
+  background-image: url("../translate.jpg");
   padding-left: 10px;
 }
 
