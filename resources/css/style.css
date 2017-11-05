@@ -32,6 +32,7 @@ header a {
   float: right;
   color: cadetblue;
   text-decoration: none;
+  padding: 5px;
 }
 
 header p {
@@ -81,28 +82,7 @@ footer div {
 #naha,
 #saipan,
 #honolulu,
-#slc {
-  height: 400px;
-  width: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: cadetblue;
-  font-size: 23px;
-  text-decoration: none;
-  font-weight: bold;
-  background-repeat: no-repeat;
-}
-
-#tokyo,
-#boston,
-#naha,
-#saipan,
-#honolulu,
-#slc {
-  color: seashell;
-}
-
+#slc,
 #edu,
 #hr,
 #admin,
@@ -111,15 +91,22 @@ footer div {
 #food,
 #art,
 #sports {
-  height: 290px;
-  width: 290px;
+  height: 400px;
+  width: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: seashell;
   font-size: 23px;
+  text-decoration: none;
   font-weight: bold;
   background-repeat: no-repeat;
+}
+
+#interests,
+#trajectory,
+#background {
+  color: cadetblue;
 }
 
 #interests {
@@ -195,7 +182,9 @@ footer div {
   background-image: url("../sports.png")
 }
 
-#page3 section {
+#page3 section,
+.background,
+.interests {
   display: flex;
   justify-content: space-around;
   height: 950px;
@@ -216,13 +205,6 @@ section div {
   font-weight: bold;
   display: flex;
   justify-content: center;
-}
-
-.background,
-.interests {
-  display: flex;
-  padding-top: 50px;
-  justify-content: space-around;
 }
 
 #yknot a {
