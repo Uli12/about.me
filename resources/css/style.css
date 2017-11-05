@@ -153,6 +153,7 @@ section div {
   font-weight: bold;
   display: flex;
   justify-content: center;
+  color: seashell;
 }
 
 #contact {
